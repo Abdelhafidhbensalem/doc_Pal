@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Gulzar&family=Open+Sans:ital@1&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&family=Work+Sans:ital,wght@1,200;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top:70px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #747474;
+}
+
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.main-menu {
+    display: flex;
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 1.33em 0;
+}
+
+.main-header {
+    background: hsla(0, 0%, 100%, .98);
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.main-header.is-sticky {
+    box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 15%);
+}
+
+.flex1 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.main-menu a {
+    color: #ababab;
+    text-decoration: none;
+    padding: 0 0.6em;
+}
+
+a:hover {
+    color: #00b39b;
+}
+
+/*.lead__logo {
+    display: block;
+    margin: 0 auto;
+}
+*/
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lead {
+    margin: 2.0625rem auto 3.75rem;
+}
+
+h1, h2, h3, h4 {
+    margin: 1em 0;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+h1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+
+.flex3 {
+    display: flex;
+}
+
+.lead p {
+    margin: 0.8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    padding: 10px;
+}
